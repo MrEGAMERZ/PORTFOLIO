@@ -1,11 +1,15 @@
 export default function Contact() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-      <h1 className="text-4xl font-bold mb-4">Contact</h1>
+    <div className="min-h-screen text-center flex flex-col justify-center px-4">
+      <h2 className="text-5xl font-bold mb-8">Contact</h2>
 
-      <p className="text-gray-300 text-lg">Email: yourname@gmail.com</p>
-      <p className="text-gray-300 text-lg">GitHub: github.com/yourusername</p>
-      <p className="text-gray-300 text-lg">Instagram: @yourhandle</p>
+      <p className="text-lg text-gray-300">📧 yourmail@gmail.com</p>
+      <p className="text-lg text-gray-300">📱 Instagram: @yourhandle</p>
+      <p className="text-lg text-gray-300">💼 GitHub: github.com/yourusername</p>
+
+      <p className="text-gray-500 mt-10 text-sm">
+        © 2025 Your Name — All Rights Reserved
+      </p>
     </div>
   );
 }

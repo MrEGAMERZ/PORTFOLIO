@@ -1,12 +1,14 @@
 export default function Experience() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-      <h1 className="text-4xl font-bold mb-6">Experience</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center text-center px-4">
+      <h2 className="text-5xl font-bold mb-8">Experience</h2>
 
-      <ul className="text-gray-300 text-lg leading-8">
-        <li>PC builds consultant</li>
-        <li>Camera & office setup services</li>
-        <li>Science Exhibition Projects</li>
+      <ul className="text-gray-300 text-xl space-y-4">
+        <li>• PC Build Consultant in Kuwait</li>
+        <li>• Camera & Office Setup Services</li>
+        <li>• Python Developer – School Projects</li>
+        <li>• iOS App Development (Swift + Firebase)</li>
+        <li>• FPS Game Developer – Unity</li>
       </ul>
     </div>
   );

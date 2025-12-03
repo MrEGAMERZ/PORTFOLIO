@@ -1,16 +1,20 @@
 export default function About() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center text-center px-6">
-      <h1 className="text-4xl font-bold mb-4">About Me</h1>
-      <p className="text-gray-300 max-w-2xl text-lg">
-        I'm an NRI student from ICSK (NIOS), passionate about technology,
-        iOS apps, Python tools, and smart digital solutions.
-        My goal is to study CSE with AI & ML at SRM.
-      </p>
+    <div className="min-h-screen flex flex-col justify-center items-center text-center px-4">
+      <h2 className="text-5xl font-bold mb-8">About Me</h2>
 
-      <p className="text-gray-400 text-lg mt-6">
-        Skills: Swift • Python • React • Firebase • Unity • Vite
-      </p>
+      <div className="max-w-3xl bg-white/5 backdrop-blur-xl p-10 rounded-2xl shadow-2xl border border-white/10">
+        <p className="text-gray-300 text-lg leading-relaxed">
+          I'm an Indian NRI student studying in ICSK (NIOS). Passionate about
+          creating advanced tech such as iOS apps, Python tools, and interactive
+          systems. I aim to pursue CSE with AI & ML at SRM University.
+        </p>
+
+        <p className="mt-6 text-lg text-gray-400">
+          Skills: Swift • React • Python • Firebase • Tailwind • Unity • Vite
+        </p>
+      </div>
     </div>
   );
 }
+  
