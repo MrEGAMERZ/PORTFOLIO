@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-<script type="module" src="/src/Main.jsx"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - MEGAMERZ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MEGAMERZ</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p class="hero-subtitle">
+                NRI | Future CSE AI/ML Student | iOS App Developer | Python & React Enthusiast
+            </p>
+            <a href="#projects" class="btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>
+                    I'm an Indian NRI student studying in ICSK (NIOS). Passionate about
+                    creating advanced tech such as iOS apps, Python tools, and interactive
+                    systems. I aim to pursue CSE with AI & ML at SRM University.
+                </p>
+                <p class="skills">
+                    <strong>Skills:</strong> Swift • React • Python • Firebase • Tailwind • Unity • Vite
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <ul class="experience-list">
+                <li>• PC Build Consultant in Kuwait</li>
+                <li>• Camera & Office Setup Services</li>
+                <li>• Python Developer – School Projects</li>
+                <li>• iOS App Development (Swift + Firebase)</li>
+                <li>• FPS Game Developer – Unity</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h3>Shooting Strike FPS</h3>
+                    <p>A PC first-person shooter game developed in Unity with multiple levels & weapons.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Facial Attendance System</h3>
+                    <p>AI-powered attendance with face detection, CSV logs, GUI and student database.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Student Cloud (iOS)</h3>
+                    <p>Centralized education app for students; login system + Firebase.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-info">
+                <p>📧 yourmail@gmail.com</p>
+                <p>📱 Instagram: @yourhandle</p>
+                <p>💼 GitHub: github.com/MEGAMERZ</p>
+            </div>
+            <p class="footer">© 2025 Your Name — All Rights Reserved</p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
